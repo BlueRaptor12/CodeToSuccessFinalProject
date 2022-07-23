@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+   background-color: #343232;
+  color:white;
+}
+/* Navigation Styles */
+.navigation-bar{
+     height: 70px;
+    background-color: black;
+  padding-left:20px;
+  padding-top: 25px;
+}
+.navigation-bar img {
+	float: left;
+  height: 50px;
+}
+.nav{
+  font-size: 18px;
+  display: flex;
+    justify-content: space-evenly;
+  width: 50%;
+  font-family: Nunito;
+}
+#specialNavLink{
+  color:grey;
+  font-size: 16px;
+}
+#special{
+  margin-left: 22em;
+  color: goldenrod;
+  margin-bottom: 0;
+  padding:none;
+  margin-top: 5px;
+}
+.farRight{
+  display:flex;
+  margin-left: 80em;
+  margin-right:1em;
+  margin-top:-50px;
+}
+.navButton {
+    background-color: #454545;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #454545;
+    border-radius: 5px;
+  margin-right: 5px;
+  
+}
+#greenChevron{
+  color:#23d771;
+}
+#search{
+  color:grey;
+  font-size: 25px;
+  padding:10px;
+  margin-right:7px;
+}
+/* Main Content Styles */
+.example{
+  float:right;
+  margin-bottom:1em;
+}
+.content{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+    grid-gap: 10em;
+  background-color: #1f1f1f;
+    color: #b0b0b0;
+}
+#specialLink{
+    color: #00ccff;
+    font-weight: 800;
+    text-decoration: none;
+}
+.projectLink{
+  margin-left:10em;
+}
+.bold {
+    font-weight: bold;
+    color: white;
+}
+h1{
+  font-size: 40px;
+}
+.mainLeft{
+  padding-left: 7em;
+    padding-top: 2em;
+}
+.subtitles{
+  color:grey;
+  line-height:50px;
+  font-size: 30px;
+}
+/* Buttons */
+button{
+  font-family: Raleway;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px;
+}
+.greenButton{
+  border: solid 1px #23d771;
+  border-radius: 5px;
+  background-color: #23d771;
+  color:black;
+  margin-right: 15px;
+}
+.blackButton{
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+}
+/* columns */
+.sectors{
+  width:100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.rect{
+  border: 1px solid grey;
+  padding:15px;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+.types{
+  font-size: 30px;
+}
+/* footer */
+.footer{
+  padding: 50px;
+  background-color:black;
+}
